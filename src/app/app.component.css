@@ -1,0 +1,28 @@
+.editor {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #4931d4;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.list {
+  position: absolute;
+  overflow-y: auto;
+  width: 180px;
+  max-height: 150px;
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  user-select: none;
+}
+
+.item {
+  padding: 4px;
+}
+
+.item:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
